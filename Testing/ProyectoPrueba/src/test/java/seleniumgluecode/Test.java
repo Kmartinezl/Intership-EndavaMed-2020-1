@@ -13,14 +13,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Test {
 
-    private ChromeDriver driver;
+    private ChromeDriver driver = Hooks.getDriver();
 
     @Given("^El ususario se encuentra en la pagina Home de imalittletester$")
     public void el_ususario_se_encuentra_en_la_pagina_Home_de_imalittletester() throws Throwable {
-        System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver/chromedriver.exe");
-        driver = new ChromeDriver();
-        driver.get("https://imalittletester.com/");
-        driver.manage().window().maximize();
+        //Comprobar que el usuario sí esté en la página correcta
+        String titleHomePage = "imalittletester – Testing. With Java, Selenium, TestNG, Maven, Spring, IntelliJ and friends.";
+        Assert.assertEquals(titleHomePage, driver.getTitle());
         //throw new PendingException();
     }
 
@@ -36,7 +35,7 @@ public class Test {
         WebElement pageTitleLocator = driver.findElement(By.className("page-title"));
         Assert.assertTrue("No se redireccionó correctamente a la página de Comics", pageTitleLocator.isDisplayed());
         Assert.assertEquals("Category: comics", pageTitleLocator.getText());
-        driver.quit();
+
         //throw new PendingException();
     }
 
