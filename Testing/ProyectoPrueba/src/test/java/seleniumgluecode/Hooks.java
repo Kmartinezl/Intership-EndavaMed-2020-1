@@ -15,8 +15,8 @@ public class Hooks {
     public void setUp(){
         numberOfCase ++;
         System.out.println("Se está ejecutando el escenario nro: " + numberOfCase);
-        System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver/chromedriver.exe");
-        driver = new ChromeDriver();
+        /**System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver/chromedriver.exe");
+        driver = new ChromeDriver();**/
         driver.get("https://imalittletester.com/");
         driver.manage().window().maximize();
     }
