@@ -1,7 +1,7 @@
 package runner.browser_manager;
 
 
-import java.sql.DriverManager;
+//import java.sql.DriverManager;
 
 public class DriverManagerFactory {
 
@@ -10,6 +10,7 @@ public class DriverManagerFactory {
         DriverManager driverManager = null;
 
         switch (type) {
+
             case CHROME:
                 driverManager = new ChromeDriverManager();
                 break;

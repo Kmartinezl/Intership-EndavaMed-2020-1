@@ -7,6 +7,5 @@ public class FirefoxDriverManager extends DriverManager {
     public void createDriver() {
         System.setProperty("webdriver.gecko.driver", "./src/test/resources/geckodriver/geckodriver.exe");
         driver = new FirefoxDriver();
-
     }
 }

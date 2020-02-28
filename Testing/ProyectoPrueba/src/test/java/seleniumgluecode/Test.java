@@ -7,13 +7,14 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+
 
 
 public class Test {
 
-    private ChromeDriver driver = Hooks.getDriver();
+    private WebDriver driver = Hooks.getDriver();
 
     @Given("^El ususario se encuentra en la pagina Home de imalittletester$")
     public void el_ususario_se_encuentra_en_la_pagina_Home_de_imalittletester() throws Throwable {

@@ -2,12 +2,17 @@ package seleniumgluecode;
 
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.WebDriver;
+import runner.browser_manager.DriverManager;
+import runner.browser_manager.DriverManagerFactory;
+import runner.browser_manager.DriverType;
+
 
 public class Hooks {
 
-    private static ChromeDriver driver;
+    private static WebDriver driver;
     private static int numberOfCase = 0;
+    private DriverManager driverManager;
 
     @Before
 
@@ -15,8 +20,9 @@ public class Hooks {
     public void setUp(){
         numberOfCase ++;
         System.out.println("Se está ejecutando el escenario nro: " + numberOfCase);
-        /**System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver/chromedriver.exe");
-        driver = new ChromeDriver();**/
+        //Devolver una instancia de un navegador
+        driverManager = DriverManagerFactory.getManager(DriverType.CHROME);
+        driver = driverManager.getDriver();
         driver.get("https://imalittletester.com/");
         driver.manage().window().maximize();
     }
@@ -26,10 +32,10 @@ public class Hooks {
     //Cerrar el navegador
     public void tearDown(){
         System.out.println("El escenario nro: " + numberOfCase + " se ejecutó correctamente. \n");
-        driver.quit();
+        driverManager.quitDriver();
     }
 
-    public static ChromeDriver getDriver(){
+    public static WebDriver getDriver(){
         return driver;
     }
 }

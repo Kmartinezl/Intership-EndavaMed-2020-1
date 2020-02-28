@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -96,22 +97,22 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2685" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582818684402" />
-    <state width="1877" height="477" key="GridCell.Tab.0.bottom" timestamp="1582751876443">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1582908631784">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="477" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582751876443" />
-    <state width="1877" height="477" key="GridCell.Tab.0.center" timestamp="1582751876443">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582908631784" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1582908631784">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="477" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582751876443" />
-    <state width="1877" height="477" key="GridCell.Tab.0.left" timestamp="1582751876443">
+    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582908631784" />
+    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1582908631784">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="477" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582751876443" />
-    <state width="1877" height="477" key="GridCell.Tab.0.right" timestamp="1582751876443">
+    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582908631784" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1582908631784">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="477" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582751876443" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582908631784" />
     <state x="2410" y="175" key="Maven.ArtifactSearchDialog" timestamp="1582575854112">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
