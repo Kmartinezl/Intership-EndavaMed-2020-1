@@ -21,5 +21,9 @@ public class ComicsPage extends BasePage{
         //Llamamos al constructor de la página base
         super(driver);
     }
+
+    public boolean isTitleComicsDisplayed() throws Exception {
+       return this.isDisplayed(pageTitleLocator) && this.getText(pageTitleLocator).equals(titlePage);
+    }
 }
 
