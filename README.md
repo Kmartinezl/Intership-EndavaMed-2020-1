@@ -1,2 +1,2 @@
 # Intership-EndavaMed-2020-1
-En este repositorio se encuentran todas las actividades realizadas durante mi periodo de Intership en la empresa Endava Medellín con el fin de hacer un seguimiento a mi proceso de aprendizaje en la empresa y dejar un registro de todo el conocimiento adquirido y el trabajo realizado en esta.
+This repository contains all the activities carried out during my intership period in Endava Medellin in order to follow up my learning process in the company and leave a record of all the knowledge acquired and the work done in the company.
